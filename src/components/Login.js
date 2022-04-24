@@ -36,7 +36,7 @@ export const Login = () => {
   return (
 
     <Formik
-      initialValues={{ email: 'reactdev@iniceptia.ai', password: '4eSBbHqiCTPdBCTj' }}
+      initialValues={{ email: '', password: '' }}
       validationSchema={validationSchema}
       onSubmit={ (values, action) => {
         dispatch(login(values))   
