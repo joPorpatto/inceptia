@@ -1,0 +1,23 @@
+.picker {
+  border: 1px solid rgb(214, 209, 209);
+  border-radius: 4px;
+  max-width: 100px;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-align: center;  
+  color: rgb(97, 97, 97);
+}
+
+.picker:hover {
+  color: rgb(82, 40, 40);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.table {
+  border: 1px solid black;
+}
